@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "seed": "ts-node prisma/seed.ts",
-    "build": "npx tsc",
+    "build": "npx prisma generate && npx tsc",
     "start:win": "npx tsc && node dist/src/index.js",
     "start": "node dist/src/index.js",
     "dev": "npm run build && concurrently \"npx tsc -w\" \"nodemon --exec ts-node src/index.ts\""
