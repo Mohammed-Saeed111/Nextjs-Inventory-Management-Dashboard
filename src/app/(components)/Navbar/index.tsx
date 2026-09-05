@@ -67,13 +67,13 @@ const Navbar = () => {
           <hr className="w-0 h-7 border border-solid border-l border-gray-300 mx-3" />
             <div className="flex items-center gap-3 cursor-pointer">
             <Image
-              src="https://api.dicebear.com/7.x/avataaars/svg?seed=EdRoh"
-              alt="Profile"
+              src="/profile.jpg"
+              alt="profile"
               width={50}
               height={50}
-              className="rounded-full h-full object-cover bg-gray-200"
+              className="rounded-full h-[50px] w-[50px] object-cover object-top"
             />
-            <span className="font-semibold">Ed Roh</span>
+            <span className="font-semibold">Mohammed Saeed</span>
           </div>
         </div>
         <Link href="/settings">
